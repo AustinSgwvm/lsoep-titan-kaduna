@@ -1,6 +1,6 @@
 # ==============================================================================
 # PROJECT: LSOEP TITAN KADUNA - CORE ENGINE INTERFACE
-# REVISION: v34.0.39 [MASTER PROPORTION RUNTIME MATRIX - ENHANCED BACKDROP]
+# REVISION: v34.0.43 [MOBILE RESPONSIVE MATRIX - ZERO CONFIG LOSS RUNTIME]
 # ==============================================================================
 
 import streamlit as st
@@ -243,44 +243,80 @@ st.markdown("""
         100% { background-color: #FF0000; color: #FFFFFF; box-shadow: 0 0 20px #FF0000; }
     }
 
-    /* ENHANCED PREMIUM INTEGRATED VAULT LAYOUT CARDS GROUNDED GLASS */
+    /* PREMIUM VAULT CARDS - DESKTOP FIRST PLATFORM CONTAINER CORE */
     .unified-command-vault {
         display: flex !important;
+        flex-direction: row !important;
         align-items: center !important;
         justify-content: space-between !important;
         width: 100% !important;
-        background: linear-gradient(135deg, rgba(6, 32, 74, 0.85) 0%, rgba(2, 10, 23, 0.98) 100%) !important;
+        height: 180px !important; /* Fixed dimensional height window matrix */
+        background: linear-gradient(135deg, rgba(6, 32, 74, 0.95) 0%, rgba(2, 10, 23, 1.0) 100%) !important;
         border: 4px solid #FFD700 !important;
         animation: master_chroma_flow 4s infinite ease-in-out !important;
-        padding: 24px 35px !important;
+        padding: 0px !important; /* Removed interior top/bottom padding to allow asset flush alignment */
         border-radius: 18px !important;
-        backdrop-filter: blur(25px) !important;
-        -webkit-backdrop-filter: blur(25px) !important;
+        backdrop-filter: blur(30px) !important;
+        -webkit-backdrop-filter: blur(30px) !important;
         margin-top: 5px !important;
-        gap: 25px !important;
-        box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+        box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.2), 0 12px 35px rgba(0, 0, 0, 0.5) !important;
+        overflow: hidden !important;
     }
 
-    /* CUSTOMIZED RADIAL MACE GLOW BACKDROP CONTAINER */
+    /* PREMIUM LEGISLATIVE MACE ARMORED ASSET FRAME SHIELD (FLUSH UP AND DOWN) */
     .mace-vault-shield {
         flex-shrink: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 130px !important;
-        height: 190px !important;
-        background: radial-gradient(circle, rgba(255, 215, 0, 0.25) 0%, rgba(255, 215, 0, 0) 70%) !important;
-        border-radius: 50% !important;
+        width: 160px !important; /* Enhanced horizontal footprint dimensions */
+        height: 100% !important; /* Forceful vertical stretch matrix lock */
+        background: radial-gradient(circle at center, rgba(255, 215, 0, 0.45) 0%, rgba(6, 32, 74, 0) 75%) !important;
+        overflow: hidden !important;
         transition: transform 0.4s ease;
     }
     
     .mace-vault-shield:hover {
-        transform: scale(1.05);
+        transform: scale(1.03);
+    }
+
+    .mace-vault-shield img {
+        height: 100% !important; /* Strict frame bounding constraint */
+        width: auto !important;
+        object-fit: contain !important;
+        mix-blend-mode: luminosity !important;
+        /* Professional webkit hardware crisp textures rendering matrix injection */
+        image-rendering: -webkit-optimize-contrast !important;
+        image-rendering: crisp-edges !important;
+        filter: drop-shadow(0px 0px 14px rgba(255, 215, 0, 0.75)) contrast(1.35) brightness(1.05);
+    }
+
+    /* PREMIUM REGIONAL CONSTITUENCY IMAGE ASSET SHIELD (FLUSH UP AND DOWN) */
+    .photo-vault-shield {
+        flex-shrink: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 240px !important; /* Maximized visual capacity footprint */
+        height: 100% !important; /* Forceful vertical stretch matrix lock */
+        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, rgba(6, 32, 74, 0) 70%) !important;
+        overflow: hidden !important;
+    }
+
+    .photo-vault-shield img {
+        height: 100% !important;
+        width: auto !important;
+        object-fit: cover !important;
+        mix-blend-mode: multiply !important; /* Melds perfectly into dark matrix space */
+        image-rendering: -webkit-optimize-contrast !important;
+        image-rendering: crisp-edges !important;
+        filter: contrast(1.25) brightness(1.02);
     }
 
     .vault-text-block {
         flex-grow: 2 !important;
         text-align: center !important;
+        padding: 0 10px !important;
     }
 
     .vault-text-block h1 {
@@ -290,16 +326,17 @@ st.markdown("""
         font-weight: 900 !important;
         letter-spacing: 1.5px !important;
         text-transform: uppercase !important;
-        text-shadow: 2px 2px 4px #000000 !important;
+        text-shadow: 2px 2px 5px #000000 !important;
     }
 
     .vault-text-block .sub-title {
         color: #FFFFFF !important;
-        margin: 8px 0 0 0 !important;
+        margin: 6px 0 0 0 !important;
         font-size: 1.1rem !important;
         font-weight: bold !important;
         letter-spacing: 1px !important;
         text-transform: uppercase !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
     }
 
     .vault-text-block .geo-stamp {
@@ -309,6 +346,53 @@ st.markdown("""
         font-weight: 900 !important;
         letter-spacing: 1px !important;
         text-transform: uppercase !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
+    }
+
+    /* RESPONSIVE HARDWARE MATRIX LAYER: MOBILE VIEWPORTS BREAKOUT TUNING (<768px) */
+    @media (max-width: 768px) {
+        .unified-command-vault {
+            flex-direction: column !important; /* Flip architecture to stack elements vertically */
+            height: auto !important; /* Unlock desktop height constraint safely */
+            padding: 20px 10px !important;
+            gap: 15px !important;
+        }
+
+        .mace-vault-shield {
+            width: 100% !important; /* Take full adaptive row capacity width */
+            height: 120px !important; /* Constrain vertical footprint space on smartphone displays */
+            background: radial-gradient(circle at center, rgba(255, 215, 0, 0.45) 0%, rgba(6, 32, 74, 0) 60%) !important;
+        }
+
+        .mace-vault-shield img {
+            height: 100% !important; /* Fit up and down into mobile constraint cleanly */
+            width: auto !important;
+        }
+
+        .photo-vault-shield {
+            width: 100% !important;
+            height: 140px !important; /* Balance base asset container box mapping size */
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 0%, rgba(6, 32, 74, 0) 60%) !important;
+        }
+
+        .photo-vault-shield img {
+            height: 100% !important; /* Fit up and down into mobile photo constraint safely */
+            width: auto !important;
+            object-fit: contain !important; /* Avoid facial truncation crops on stacked frames */
+        }
+
+        .vault-text-block h1 {
+            font-size: 1.4rem !important; /* Step down typography size metrics for compact layout scaling */
+            line-height: 1.2 !important;
+        }
+
+        .vault-text-block .sub-title {
+            font-size: 0.85rem !important;
+        }
+
+        .vault-text-block .geo-stamp {
+            font-size: 0.95rem !important;
+        }
     }
 
     .sidebar-red-flash {
@@ -389,28 +473,27 @@ with st.sidebar:
     if agt_key_input:
         st.text_area("Agent Remarks/Field Observations", key="agt_remarks", placeholder="Unit log entry space...")
         
-    st.caption(f"Engine: v34.0.39-SOBA | {datetime.date.today()}")
+    st.caption(f"Engine: v34.0.43-SOBA | {datetime.date.today()}")
 
 # ==============================================================================
-# INTEGRATED HEADER OBJECTS BUILD ZONE (DIRECT SEGREGATED RENDERING ARRAYS)
+# INTEGRATED HEADER OBJECTS BUILD ZONE (PIXEL PERFECT FLUSH & TEXTURE CONTROL)
 # ==============================================================================
 def render_marquee_header():
     if HAS_MODULES:
         branding.render_header()
     else:
-        # ADJUSTMENT: Mace size scaled to 110px width within radial gold glow vault-shield
         st.markdown(
             '<div class="unified-command-vault">'
             '  <div class="mace-vault-shield">'
-            '    <img src="https://raw.githubusercontent.com/AustinSgwvm/lsoep-titan-kaduna/main/assets/mace.png" width="110" style="max-height:180px; object-fit:contain;">'
+            '    <img src="https://raw.githubusercontent.com/AustinSgwvm/lsoep-titan-kaduna/main/assets/mace.png">'
             '  </div>'
             '  <div class="vault-text-block">'
             '    <h1>HON. SULEIMAN YAHAYA RICHIFA</h1>'
             '    <div class="sub-title">MEMBER REPRESENTING SOBA FEDERAL CONSTITUENCY</div>'
             '    <div class="geo-stamp">KADUNA STATE</div>'
             '  </div>'
-            '  <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; max-width:230px;">'
-            '    <img src="https://raw.githubusercontent.com/AustinSgwvm/lsoep-titan-kaduna/main/assets/soba_icon.png" width="215" style="border-radius:10px; object-fit:contain;">'
+            '  <div class="photo-vault-shield">'
+            '    <img src="https://raw.githubusercontent.com/AustinSgwvm/lsoep-titan-kaduna/main/assets/soba_icon.png">'
             '  </div>'
             '</div>', 
             unsafe_allow_html=True
