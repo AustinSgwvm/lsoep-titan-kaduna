@@ -1,6 +1,6 @@
 # ==============================================================================
 # PROJECT: LSOEP TITAN KADUNA - CORE ENGINE INTERFACE
-# REVISION: v34.0.43 [MOBILE RESPONSIVE MATRIX - ZERO CONFIG LOSS RUNTIME]
+# REVISION: v34.0.46 [MASTER PROPORTION RUNTIME MATRIX - PERFECT MACE VISIBILITY]
 # ==============================================================================
 
 import streamlit as st
@@ -243,18 +243,18 @@ st.markdown("""
         100% { background-color: #FF0000; color: #FFFFFF; box-shadow: 0 0 20px #FF0000; }
     }
 
-    /* PREMIUM VAULT CARDS - DESKTOP FIRST PLATFORM CONTAINER CORE */
+    /* SOLID COMMAND PANELS HUB PORTAL CONTAINER STRUCTURE */
     .unified-command-vault {
         display: flex !important;
         flex-direction: row !important;
         align-items: center !important;
         justify-content: space-between !important;
         width: 100% !important;
-        height: 180px !important; /* Fixed dimensional height window matrix */
-        background: linear-gradient(135deg, rgba(6, 32, 74, 0.95) 0%, rgba(2, 10, 23, 1.0) 100%) !important;
+        height: 195px !important; 
+        background: linear-gradient(135deg, rgba(6, 32, 74, 1.0) 0%, rgba(2, 10, 23, 1.0) 100%) !important;
         border: 4px solid #FFD700 !important;
         animation: master_chroma_flow 4s infinite ease-in-out !important;
-        padding: 0px !important; /* Removed interior top/bottom padding to allow asset flush alignment */
+        padding: 0px !important; 
         border-radius: 18px !important;
         backdrop-filter: blur(30px) !important;
         -webkit-backdrop-filter: blur(30px) !important;
@@ -263,51 +263,52 @@ st.markdown("""
         overflow: hidden !important;
     }
 
-    /* PREMIUM LEGISLATIVE MACE ARMORED ASSET FRAME SHIELD (FLUSH UP AND DOWN) */
+    /* MAXIMUM FILL LEFT WITHOUT CROPPING ARTIFACTS */
     .mace-vault-shield {
         flex-shrink: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 160px !important; /* Enhanced horizontal footprint dimensions */
-        height: 100% !important; /* Forceful vertical stretch matrix lock */
-        background: radial-gradient(circle at center, rgba(255, 215, 0, 0.45) 0%, rgba(6, 32, 74, 0) 75%) !important;
+        width: 210px !important; 
+        height: 100% !important; 
+        /* Darker matte gradient anchor layer to ground the raw asset color beautifully */
+        background: rgba(4, 20, 48, 0.6) !important; 
         overflow: hidden !important;
         transition: transform 0.4s ease;
     }
     
     .mace-vault-shield:hover {
-        transform: scale(1.03);
+        transform: scale(1.02);
     }
 
     .mace-vault-shield img {
-        height: 100% !important; /* Strict frame bounding constraint */
-        width: auto !important;
-        object-fit: contain !important;
-        mix-blend-mode: luminosity !important;
-        /* Professional webkit hardware crisp textures rendering matrix injection */
+        height: 100% !important; 
+        width: 100% !important; 
+        /* FIXED: Changed to contain so that no part of the legislative crown or rod is clipped out */
+        object-fit: contain !important; 
+        mix-blend-mode: normal !important; 
         image-rendering: -webkit-optimize-contrast !important;
         image-rendering: crisp-edges !important;
         filter: drop-shadow(0px 0px 14px rgba(255, 215, 0, 0.75)) contrast(1.35) brightness(1.05);
     }
 
-    /* PREMIUM REGIONAL CONSTITUENCY IMAGE ASSET SHIELD (FLUSH UP AND DOWN) */
+    /* MAXIMUM EDGE-TO-EDGE RIGHT CAPACITY CONSTITUENCY PHOTO */
     .photo-vault-shield {
         flex-shrink: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 240px !important; /* Maximized visual capacity footprint */
-        height: 100% !important; /* Forceful vertical stretch matrix lock */
-        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, rgba(6, 32, 74, 0) 70%) !important;
+        width: 285px !important; 
+        height: 100% !important; 
+        background: transparent !important; 
         overflow: hidden !important;
     }
 
     .photo-vault-shield img {
         height: 100% !important;
-        width: auto !important;
-        object-fit: cover !important;
-        mix-blend-mode: multiply !important; /* Melds perfectly into dark matrix space */
+        width: 100% !important; 
+        object-fit: cover !important; /* Kept cover so map profile stretches completely flush without borders */
+        mix-blend-mode: normal !important; 
         image-rendering: -webkit-optimize-contrast !important;
         image-rendering: crisp-edges !important;
         filter: contrast(1.25) brightness(1.02);
@@ -349,40 +350,34 @@ st.markdown("""
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
     }
 
-    /* RESPONSIVE HARDWARE MATRIX LAYER: MOBILE VIEWPORTS BREAKOUT TUNING (<768px) */
+    /* RESPONSIVE LAYOUT CONSTRAINTS FOR MOBILES */
     @media (max-width: 768px) {
         .unified-command-vault {
-            flex-direction: column !important; /* Flip architecture to stack elements vertically */
-            height: auto !important; /* Unlock desktop height constraint safely */
+            flex-direction: column !important; 
+            height: auto !important; 
             padding: 20px 10px !important;
             gap: 15px !important;
         }
 
         .mace-vault-shield {
-            width: 100% !important; /* Take full adaptive row capacity width */
-            height: 120px !important; /* Constrain vertical footprint space on smartphone displays */
-            background: radial-gradient(circle at center, rgba(255, 215, 0, 0.45) 0%, rgba(6, 32, 74, 0) 60%) !important;
-        }
-
-        .mace-vault-shield img {
-            height: 100% !important; /* Fit up and down into mobile constraint cleanly */
-            width: auto !important;
+            width: 100% !important; 
+            height: 140px !important; 
         }
 
         .photo-vault-shield {
             width: 100% !important;
-            height: 140px !important; /* Balance base asset container box mapping size */
-            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 0%, rgba(6, 32, 74, 0) 60%) !important;
+            height: 160px !important; 
         }
 
+        .mace-vault-shield img {
+            object-fit: contain !important;
+        }
         .photo-vault-shield img {
-            height: 100% !important; /* Fit up and down into mobile photo constraint safely */
-            width: auto !important;
-            object-fit: contain !important; /* Avoid facial truncation crops on stacked frames */
+            object-fit: cover !important; 
         }
 
         .vault-text-block h1 {
-            font-size: 1.4rem !important; /* Step down typography size metrics for compact layout scaling */
+            font-size: 1.4rem !important; 
             line-height: 1.2 !important;
         }
 
@@ -473,7 +468,7 @@ with st.sidebar:
     if agt_key_input:
         st.text_area("Agent Remarks/Field Observations", key="agt_remarks", placeholder="Unit log entry space...")
         
-    st.caption(f"Engine: v34.0.43-SOBA | {datetime.date.today()}")
+    st.caption(f"Engine: v34.0.46-SOBA | {datetime.date.today()}")
 
 # ==============================================================================
 # INTEGRATED HEADER OBJECTS BUILD ZONE (PIXEL PERFECT FLUSH & TEXTURE CONTROL)
