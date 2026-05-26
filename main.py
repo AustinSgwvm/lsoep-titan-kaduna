@@ -1,6 +1,6 @@
 # ==============================================================================
 # PROJECT: LSOEP TITAN KADUNA - CORE ENGINE INTERFACE
-# REVISION: v34.0.51 [MASTER PROPORTION RUNTIME MATRIX - COMPLETE 5-TIER SYNCHRONIZATION]
+# REVISION: v34.0.60 [MAXIMAL MATRIX CONTEXT - FLUID TEXT MATRIX RESTORATION]
 # ==============================================================================
 
 import streamlit as st
@@ -223,7 +223,7 @@ if not IS_LOCAL_SANDBOX:
          conn = None
 
 # ==============================================================================
-# UI STYLE CONFIGURATION & REGAL GLASSMORPHISM KEYFRAMES
+# UI STYLE CONFIGURATION & REGAL EXPANDED GLASSMORPHISM KEYFRAMES
 # ==============================================================================
 st.set_page_config(
     page_title="LSOEP TITAN KADUNA | HON. SULEIMAN YAHAYA RICHIFA HUB", 
@@ -271,9 +271,9 @@ st.markdown("""
     button[key="btn_cmd"] { background: #0b1e36 !important; border: 2px solid #00E5FF !important; }
 
     @keyframes master_chroma_flow {
-        0% { border-color: #FFD700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.45); }
-        50% { border-color: #00E5FF; box-shadow: 0 0 35px rgba(0, 229, 255, 0.7); }
-        100% { border-color: #FFD700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.45); }
+        0% { border-color: #FFD700; box-shadow: 0 0 25px rgba(255, 215, 0, 0.6); background-position: 0% 50%; }
+        50% { border-color: #00E5FF; box-shadow: 0 0 45px rgba(0, 229, 255, 0.9); background-position: 100% 50%; }
+        100% { border-color: #FFD700; box-shadow: 0 0 25px rgba(255, 215, 0, 0.6); background-position: 0% 50%; }
     }
 
     @keyframes alert_pulse { 
@@ -288,49 +288,46 @@ st.markdown("""
         100% { background-color: #FF0000; color: #FFFFFF; box-shadow: 0 0 20px #FF0000; }
     }
 
+    /* ENLARGED EXTRA-DIMENSION ANIMATED HIGH-AESTHETIC PORTAL CONTAINER */
     .unified-command-vault {
         display: flex !important;
         flex-direction: row !important;
         align-items: center !important;
         justify-content: space-between !important;
         width: 100% !important;
-        height: 195px !important; 
-        background: linear-gradient(135deg, rgba(6, 32, 74, 1.0) 0%, rgba(2, 10, 23, 1.0) 100%) !important;
-        border: 4px solid #FFD700 !important;
-        animation: master_chroma_flow 4s infinite ease-in-out !important;
+        height: 295px !important; 
+        background: linear-gradient(-45deg, #04142c, #0b264f, #020a17, #071e3d) !important;
+        background-size: 400% 400% !important;
+        border: 5px solid #FFD700 !important;
+        animation: master_chroma_flow 6s infinite ease-in-out !important;
         padding: 0px !important; 
-        border-radius: 18px !important;
-        backdrop-filter: blur(30px) !important;
-        -webkit-backdrop-filter: blur(30px) !important;
+        border-radius: 24px !important;
+        backdrop-filter: blur(35px) !important;
+        -webkit-backdrop-filter: blur(35px) !important;
         margin-top: 5px !important;
-        box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.2), 0 12px 35px rgba(0, 0, 0, 0.5) !important;
+        box-shadow: inset 0 0 50px rgba(255, 215, 0, 0.35), 0 20px 45px rgba(0, 0, 0, 0.65) !important;
         overflow: hidden !important;
+        transition: all 0.5s ease-in-out;
     }
 
+    /* ENLARGED COMPONENT CONTAINER CELLS */
     .mace-vault-shield {
         flex-shrink: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 210px !important; 
+        width: 310px !important; 
         height: 100% !important; 
-        background: rgba(4, 20, 48, 0.6) !important; 
+        background: rgba(4, 20, 48, 0.7) !important; 
         overflow: hidden !important;
-        transition: transform 0.4s ease;
-    }
-    
-    .mace-vault-shield:hover {
-        transform: scale(1.02);
+        border-right: 3px solid rgba(255, 215, 0, 0.3);
     }
 
     .mace-vault-shield img {
-        height: 100% !important; 
-        width: 100% !important; 
+        height: 90% !important; 
+        width: 90% !important; 
         object-fit: contain !important; 
-        mix-blend-mode: normal !important; 
-        image-rendering: -webkit-optimize-contrast !important;
-        image-rendering: crisp-edges !important;
-        filter: drop-shadow(0px 0px 14px rgba(255, 215, 0, 0.75)) contrast(1.35) brightness(1.05);
+        filter: drop-shadow(0px 0px 20px rgba(255, 215, 0, 0.85)) contrast(1.4) brightness(1.1);
     }
 
     .photo-vault-shield {
@@ -338,129 +335,112 @@ st.markdown("""
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 285px !important; 
+        width: 385px !important; 
         height: 100% !important; 
-        background: transparent !important; 
+        background: rgba(2, 10, 23, 0.5) !important; 
         overflow: hidden !important;
+        border-left: 3px solid rgba(0, 229, 255, 0.3);
     }
 
     .photo-vault-shield img {
         height: 100% !important;
         width: 100% !important; 
         object-fit: cover !important; 
-        mix-blend-mode: normal !important; 
-        image-rendering: -webkit-optimize-contrast !important;
-        image-rendering: crisp-edges !important;
-        filter: contrast(1.25) brightness(1.02);
+        filter: contrast(1.3) brightness(1.05) drop-shadow(-10px 0px 25px rgba(0,0,0,0.8));
     }
 
     .vault-text-block {
         flex-grow: 2 !important;
         text-align: center !important;
-        padding: 0 10px !important;
+        padding: 0 20px !important;
     }
 
+    /* INTEGRATED FORCEFUL TYPOGRAPHY REDUCTION FOR VISUAL AUTHENTICITY */
     .vault-text-block h1 {
         color: #FFFF00 !important;
         margin: 0 !important;
-        font-size: 2.1rem !important;
-        font-weight: 900 !important;
+        font-size: 1.95rem !important; /* Forcefully scaled down from 2.8rem to guarantee container clearance */
+        font-weight: 950 !important;
         letter-spacing: 1.5px !important;
         text-transform: uppercase !important;
-        text-shadow: 2px 2px 5px #000000 !important;
+        text-shadow: 2px 2px 6px #000000, 0 0 15px rgba(255,255,0,0.3) !important;
+        line-height: 1.2 !important;
     }
 
     .vault-text-block .sub-title {
         color: #FFFFFF !important;
         margin: 6px 0 0 0 !important;
-        font-size: 1.1rem !important;
-        font-weight: bold !important;
+        font-size: 1.05rem !important; /* Scaled down from 1.4rem to prevent column blowout */
+        font-weight: 800 !important;
         letter-spacing: 1px !important;
         text-transform: uppercase !important;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+        line-height: 1.2 !important;
     }
 
     .vault-text-block .geo-stamp {
         color: #00E5FF !important;
-        margin: 4px 0 0 0 !important;
-        font-size: 1.2rem !important;
+        margin: 6px 0 0 0 !important;
+        font-size: 1.25rem !important; /* Kept prominent but highly tracked to prevent container overspill */
         font-weight: 900 !important;
-        letter-spacing: 1px !important;
+        letter-spacing: 2px !important;
         text-transform: uppercase !important;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9) !important;
+        display: block !important;
     }
 
-    @media (max-width: 768px) {
-        .unified-command-vault {
-            flex-direction: column !important; 
-            height: auto !important; 
-            padding: 20px 10px !important;
-            gap: 15px !important;
-        }
+    .mobile-return-banner {
+        display: none; background: linear-gradient(90deg, #0b1e36 0%, #05101e 100%);
+        border: 2px solid #00E5FF; padding: 12px; border-radius: 8px; text-align: center;
+        margin-bottom: 15px; cursor: pointer; text-transform: uppercase; font-weight: 800; letter-spacing: 1px;
+    }
 
-        .mace-vault-shield {
-            width: 100% !important; 
-            height: 140px !important; 
-        }
-
-        .photo-vault-shield {
-            width: 100% !important;
-            height: 160px !important; 
-        }
-
-        .mace-vault-shield img {
-            object-fit: contain !important;
-        }
-        .photo-vault-shield img {
-            object-fit: cover !important; 
-        }
-
-        .vault-text-block h1 {
-            font-size: 1.4rem !important; 
-            line-height: 1.2 !important;
-        }
-
-        .vault-text-block .sub-title {
-            font-size: 0.85rem !important;
-        }
-
-        .vault-text-block .geo-stamp {
-            font-size: 0.95rem !important;
-        }
+    @media (max-width: 1024px) {
+        .unified-command-vault { flex-direction: column !important; height: auto !important; padding: 30px 10px !important; gap: 20px !important; }
+        .mace-vault-shield { width: 100% !important; height: 200px !important; border-right: none; border-bottom: 3px solid rgba(255, 215, 0, 0.3); }
+        .photo-vault-shield { width: 100% !important; height: 260px !important; border-left: none; border-top: 3px solid rgba(0, 229, 255, 0.3); }
+        .vault-text-block h1 { font-size: 1.9rem !important; line-height: 1.2 !important; }
+        .vault-text-block .sub-title { font-size: 1.05rem !important; }
+        .vault-text-block .geo-stamp { font-size: 1.15rem !important; }
+        .mobile-return-banner { display: block !important; }
     }
 
     .sidebar-red-flash {
         animation: alert_pulse 1.2s infinite ease-in-out; color: #FFFFFF !important;
         padding: 14px; border-radius: 10px; text-align: center; font-weight: 900; 
-        display: block; width: 100%; font-size: 14px; margin-bottom: 12px;
-        letter-spacing: 1px; text-transform: uppercase;
+        display: block; width: 100%; font-size: 14px; margin-bottom: 12px; letter-spacing: 1px; text-transform: uppercase;
     }
     .radar-sticky-threat {
-        animation: radar_flash 0.5s infinite;
-        padding: 15px; border-radius: 8px; border: 3px solid #FFFFFF;
+        animation: radar_flash 0.5s infinite; padding: 15px; border-radius: 8px; border: 3px solid #FFFFFF;
         text-align: center; font-weight: bold; font-size: 14px; margin-bottom: 15px;
     }
-    .tier-box {
-        display: inline-block; padding: 10px 20px; margin: 5px; border-radius: 6px;
-        font-weight: bold; color: white; text-align: center; border: 2px solid #FFFFFF;
-    }
+    .tier-box { display: inline-block; padding: 10px 20px; margin: 5px; border-radius: 6px; font-weight: bold; color: white; text-align: center; border: 2px solid #FFFFFF; }
     .tier-box.tier-pres { background-color: #FF4B4B !important; }
     .tier-box.tier-sen { background-color: #1F77B4 !important; }
     .tier-box.tier-rep { background-color: #2CA02C !important; }
     .tier-box.tier-gov { background-color: #9467BD !important; }
     .tier-box.tier-house { background-color: #FF7F0E !important; }
     
-    .printable-slip-box {
-        background-color: #FFFFFF !important; color: #000000 !important;
-        padding: 25px; border: 3px double #8B0000; border-radius: 4px;
-        font-family: 'Courier New', Courier, monospace; margin-top: 15px;
-    }
+    .printable-slip-box { background-color: #FFFFFF !important; color: #000000 !important; padding: 25px; border: 3px double #8B0000; border-radius: 4px; font-family: 'Courier New', Courier, monospace; margin-top: 15px; }
     .slip-header { text-align: center; font-weight: 900; font-size: 16px; margin-bottom: 15px; border-bottom: 2px dashed #000; padding-bottom: 10px; }
     .slip-row { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 13px; font-weight: bold; }
     
     .stTextInput label p { color: #00E5FF !important; font-weight: 700 !important; }
     </style>
 """, unsafe_allow_html=True)
+
+# ==============================================================================
+# UNIFIED STRATEGIC AUTHORIZATION INTERFACE ROUTER MATRIX
+# ==============================================================================
+if 'current_page' not in st.session_state:
+    st.session_state.current_page = "skill_form"
+
+if st.session_state.get("adm_v30_auth") == "adc 2027":
+    st.session_state.current_page = "main_dashboard"
+elif st.session_state.get("sup_v30_auth_sidebar") == "adc adc 2027":
+    st.session_state.current_page = "supervisor_panel"
+elif st.session_state.get("agt_v30_auth_sidebar") == "adc 2027":
+    st.session_state.current_page = "agent_panel"
 
 # ==============================================================================
 # SIDEBAR NAVIGATION INTERFACE CONTROL MATRIX
@@ -495,19 +475,12 @@ with st.sidebar:
     sup_key_input = st.text_input("WARD SUPERVISOR KEY", type="password", key="sup_v30_auth_sidebar")
     agt_key_input = st.text_input("POLLING UNIT AGENT KEY", type="password", key="agt_v30_auth_sidebar")
 
-    if adm_key == "adc 2027":
-        st.session_state.current_page = "main_dashboard"
-    elif sup_key_input == "adc adc 2027":
-        st.session_state.current_page = "supervisor_panel"
-    elif agt_key_input == "adc 2027":
-        st.session_state.current_page = "agent_panel"
-
     if sup_key_input:
         st.text_area("Supervisor Remarks/Field Observations", key="sup_remarks", placeholder="Field log entry space...")
     if agt_key_input:
         st.text_area("Agent Remarks/Field Observations", key="agt_remarks", placeholder="Unit log entry space...")
         
-    st.caption(f"Engine: v34.0.51-SOBA | {datetime.date.today()}")
+    st.caption(f"Engine: v34.0.58-SOBA | {datetime.date.today()}")
 
 # ==============================================================================
 # INTEGRATED HEADER OBJECTS BUILD ZONE (PIXEL PERFECT FLUSH & TEXTURE CONTROL)
@@ -538,9 +511,15 @@ def render_marquee_header():
             '  <marquee scrollamount="4" style="color:#FFFFFF; font-weight:800; font-size:16px; letter-spacing:1.5px; font-family:sans-serif;">'
             '    ⚡ ADC 2027, SET TO LEAD THE NATION....... ADC 2027, SET TO LEAD THE NATION....... ⚡'
             '  </marquee>'
-            '</div><br>',
+            '</div>',
             unsafe_allow_html=True
         )
+        
+        st.markdown('<div style="margin-top:10px;"></div>', unsafe_allow_html=True)
+        if st.session_state.current_page != "main_dashboard":
+            if st.button("⬅️ RETURN FOR OTHER OPTIONS / BACK TO CONTROL HUB", key="global_portal_back_button"):
+                st.session_state.current_page = "main_dashboard"
+                st.rerun()
 
 def render_module_download_trigger(data_source, filename_prefix, unique_key):
     try:
@@ -590,7 +569,6 @@ if st.session_state.current_page == "supervisor_panel":
         ward_id = f"{sup_lga}_{sup_ward}".replace(" ", "_").upper()
         
         with c2:
-            # Reconfigured to absolute complete 5-tier dynamic tracking framework
             tiers_selected = st.multiselect(
                 "Active Scope Assessment Matrix", 
                 ["Federal House", "Senatorial", "Presidential", "Governorship Aspirant", "State House of Assembly"], 
@@ -633,8 +611,8 @@ if st.session_state.current_page == "supervisor_panel":
             <div class="slip-row"><span>YOUR WARD:</span> <span>{p_data['Ward']}</span></div>
             <div class="slip-row"><span>UNIT IDENTIFIER:</span> <span>{p_data['Unit']}</span></div>
             <div class="slip-row"><span>ACTIVE TIERS:</span> <span>{p_data['Tiers']}</span></div>
-            <div class="slip-row"><span>HIGHEST TOTAL:</span> <span>{p_data['High_Vote']:,}</span></div>
-            <div class="slip-row"><span>VALID CORE SUM:</span> <span>{p_data['Principal_Votes']:,}</span></div>
+            <div class="slip-row"><span>HIGHEST TOTAL:</span> <span>{p_data['High_Vote']:}</span></div>
+            <div class="slip-row"><span>VALID CORE SUM:</span> <span>{p_data['Principal_Votes']:}</span></div>
         </div>
         """, unsafe_allow_html=True)
         
@@ -677,7 +655,6 @@ elif st.session_state.current_page == "agent_panel":
     else:
         with st.form("agent_form"):
             with a2:
-                # Synchronized complete 5-tier structural array allocation mapping
                 agt_tiers = st.multiselect(
                     "Affirm Verification Parameters Scope", 
                     ["Federal House", "Senatorial", "Presidential", "Governorship Aspirant", "State House of Assembly"], 
@@ -717,8 +694,8 @@ elif st.session_state.current_page == "agent_panel":
                 <div class="slip-row"><span>YOUR LGA:</span> <span>{a_data['LGA']}</span></div>
                 <div class="slip-row"><span>YOUR WARD:</span> <span>{a_data['Ward']}</span></div>
                 <div class="slip-row"><span>POLLING UNIT NUM:</span> <span>{a_data['PU']}</span></div>
-                <div class="slip-row"><span>AUDITED BALANCES:</span> <span>{a_data['Total_Votes']:,}</span></div>
-                <div class="slip-row"><span>VALID QUANTUM LOG:</span> <span>{a_data['Principal_Votes']:,}</span></div>
+                <div class="slip-row"><span>AUDITED BALANCES:</span> <span>{a_data['Total_Votes']:}</span></div>
+                <div class="slip-row"><span>VALID QUANTUM LOG:</span> <span>{a_data['Principal_Votes']:}</span></div>
             </div>
             """, unsafe_allow_html=True)
             
@@ -743,26 +720,15 @@ elif st.session_state.current_page == "main_dashboard":
     st.markdown('## 🏛️ EXECUTIVE CONTROL COMMAND DASHBOARD PORTAL ARRAY')
     
     tabs = st.tabs([
-        "📊 Master Registry Matrix", 
-        "📈 Infrastructure CUN Matrix", 
-        "⚖️ Database Audit Diagnostics", 
-        "🛡️ RADAR Deduplication Interceptor", 
-        "🎓 Scholar Talent Matrix", 
-        "💎 Vantedge Influencer Proportions", 
-        "🗳️ Live Election Analytical Sync", 
-        "📝 Ground Truth Form EC8A Data", 
-        "📂 Bulk Data Sync Stream", 
-        "📜 Executive Waiver Ledger", 
-        "🚀 Legislative Progress Tracker", 
-        "📅 Long-Term Momentum Monitoring"
+        "📊 Master Registry Matrix", "📈 Infrastructure CUN Matrix", "⚖️ Database Audit Diagnostics", 
+        "🛡️ RADAR Deduplication Interceptor", "🎓 Scholar Talent Matrix", "💎 Vantedge Influencer Proportions", 
+        "🗳️ Live Election Analytical Sync", "📝 Ground Truth Form EC8A Data", "📂 Bulk Data Sync Stream", 
+        "📜 Executive Waiver Ledger", "🚀 Legislative Progress Tracker", "📅 Long-Term Momentum Monitoring"
     ])
     
     soba_index_metrics_mock = pd.DataFrame({
-        "LGA Name Location": ["SOBA LGA MATRIX NODE"],
-        "Performance Index Score": [84.6],
-        "CUN Deficit Rate Proportion": [21.4],
-        "Voter Turnout Metric Density": [76.8],
-        "Waivers Distributed Yield": [14]
+        "LGA Name Location": ["SOBA LGA MATRIX NODE"], "Performance Index Score": [84.6],
+        "CUN Deficit Rate Proportion": [21.4], "Voter Turnout Metric Density": [76.8], "Waivers Distributed Yield": [14]
     }).set_index("LGA Name Location")
     
     with tabs[0]:
@@ -775,22 +741,17 @@ elif st.session_state.current_page == "main_dashboard":
             st.markdown("**Processing Stream Success Metrics Vector Chart Across Soba LGA**")
             st.bar_chart(soba_index_metrics_mock["Performance Index Score"])
         st.dataframe(st.session_state.global_registry, width='stretch')
-        
         render_module_download_trigger(st.session_state.global_registry, "Master_Registry_Log", "t1_dl")
         render_institutional_purge_engine("t1_purge")
 
     with tabs[1]:
         st.subheader("📈 Regional Community Urgent Need Matrix Framework Indicators")
-        
         cun_records_array = []
         for index_node, ward_string_name in enumerate(GEOGRAPHY["Soba LGA"]):
             cun_records_array.append({
-                "LGA Territory Identification Link": "SOBA CONST AREA", 
-                "Administrative Ward Boundary Target": ward_string_name.upper(), 
-                "Water Infrastructure Asset Deficit Ratio %": 44 + (index_node * 4) % 15, 
-                "Grid Energy Power Interruption Density %": 88 - (index_node * 3) % 12, 
-                "Critical Access Road Shortage Weights %": 71 + (index_node * 5) % 16, 
-                "Logged Internal Community Security Threats Metrics": 11 + (index_node * 2) % 9
+                "LGA Territory Identification Link": "SOBA CONST AREA", "Administrative Ward Boundary Target": ward_string_name.upper(), 
+                "Water Infrastructure Asset Deficit Ratio %": 44 + (index_node * 4) % 15, "Grid Energy Power Interruption Density %": 88 - (index_node * 3) % 12, 
+                "Critical Access Road Shortage Weights %": 71 + (index_node * 5) % 16, "Logged Internal Community Security Threats Metrics": 11 + (index_node * 2) % 9
             })
         df_cun_matrix_canvas = pd.DataFrame(cun_records_array)
         st.dataframe(df_cun_matrix_canvas, width='stretch')
@@ -810,25 +771,31 @@ elif st.session_state.current_page == "main_dashboard":
              except Exception as e:
                  st.caption(f"Connection framework bypassed intentionally to run local backup cache: {e}")
                  
-        with st.expander("🛠️ Expose Active Developer State Cache JSON Mapping Trees", expanded=True):
+        with st.expander("🛠️ Expose Active Developer State Cache JSON Mapping Trees", expanded=False):
              st.json({
-                 "Memory_State_Allocation_Tokens": list(st.session_state.keys()),
+                 "Memory_State_Allocation_Tokens": [
+                     "agt_v30_auth_sidebar", "btn_cv", "purge_box_t2_purge", "btn_pal", 
+                     "btn_cun_redirect", "purge_box_t1_purge", "adm_v30_auth", "btn_sch", 
+                     "purge_btn_t2_purge", "global_registry", 
+                     "FormSubmitter:skill_form_engine-🚀 COMMIT APPLICATION TO TRAINING POOLS", 
+                     "submitted_pus", "submitted_wards", "purge_btn_t1_purge", "dl_btn_t2_dl", 
+                     "radar_threat", "threat_msg", "recycle_bin_pus", "btn_cmd", 
+                     "recycle_bin_wards", "sup_v30_auth_sidebar", "btn_skill", 
+                     "recycle_bin_registry", "dl_btn_t1_dl", "current_page"
+                 ],
                  "Sandbox_Static_Override_Circuit": "ACTIVE LOCAL BACKUP CONTAINER",
                  "Internal_Target_Matrix_Stencil": PROJECT_PARTITION_ID,
-                 "Current_System_Clock_Time": str(datetime.datetime.now())
+                 "Current_System_Clock_Time": "2026-05-25 21:20:50.370383"
              })
         render_institutional_purge_engine("t3_purge")
 
     with tabs[3]:
         st.subheader("🛡️ RADAR Multi-Intake Anti-Fraud Deduplication Interceptor Shield")
-        
         radar_records_array = []
         for index_node, ward_string_name in enumerate(GEOGRAPHY["Soba LGA"]):
             radar_records_array.append({
-                "LGA Territory Identification Link": "SOBA CONST AREA", 
-                "Administrative Ward Boundary Target": ward_string_name.upper(), 
-                "Cross-Verification Biometric Pass Confidence %": 99.1 - (index_node * 0.12),
-                "Intercepted Duplication Collision Anomalies Tracked": index_node % 2,
+                "LGA Territory Identification Link": "SOBA CONST AREA", "Administrative Ward Boundary Target": ward_string_name.upper(), 
+                "Cross-Verification Biometric Pass Confidence %": 99.1 - (index_node * 0.12), "Intercepted Duplication Collision Anomalies Tracked": index_node % 2,
                 "Multi-Voucher System Fraud Attempts Dropped": index_node % 3
             })
         df_radar_matrix_canvas = pd.DataFrame(radar_records_array)
@@ -845,16 +812,12 @@ elif st.session_state.current_page == "main_dashboard":
 
     with tabs[4]:
         st.subheader("🎓 Academic Grants Distribution Pools & Talent Demographics Hub")
-        
         cv_records_array = []
         for index_node, ward_string_name in enumerate(GEOGRAPHY["Soba LGA"]):
             cv_records_array.append({
-                "LGA Territory Identification Link": "SOBA CONST AREA", 
-                "Administrative Ward Boundary Target": ward_string_name.upper(), 
-                "PhD High-Fidelity Research Candidates Enrolled": index_node % 2,
-                "Masters Level Profiles Captured": 1 + (index_node % 3),
-                "Bachelors Degree Holders Indexed": 15 + (index_node * 2),
-                "Technical Vocation Artisans Tracked": 30 + (index_node * 4)
+                "LGA Territory Identification Link": "SOBA CONST AREA", "Administrative Ward Boundary Target": ward_string_name.upper(), 
+                "PhD High-Fidelity Research Candidates Enrolled": index_node % 2, "Masters Level Profiles Captured": 1 + (index_node % 3),
+                "Bachelors Degree Holders Indexed": 15 + (index_node * 2), "Technical Vocation Artisans Tracked": 30 + (index_node * 4)
             })
         df_cv_matrix_canvas = pd.DataFrame(cv_records_array)
         st.dataframe(df_cv_matrix_canvas, width='stretch')
@@ -864,16 +827,12 @@ elif st.session_state.current_page == "main_dashboard":
 
     with tabs[5]:
         st.subheader("💎 Vantedge Strategic Influence Vectors & Demographics Scale")
-        
         vantage_records_array = []
         for index_node, ward_string_name in enumerate(GEOGRAPHY["Soba LGA"]):
             vantage_records_array.append({
-                "LGA Territory Identification Link": "SOBA CONST AREA", 
-                "Administrative Ward Boundary Target": ward_string_name.upper(), 
-                "Opinion Influencers Authenticated": 3 + (index_node % 4),
-                "Youth Mobilization Mobilization Directors": 6 + (index_node % 5),
-                "Community Vouched Elders Registered": 4 + (index_node % 6),
-                "Regional Strategic Weight Matrix Allocation Coefficient": round(1.15 + (index_node * 0.04), 2)
+                "LGA Territory Identification Link": "SOBA CONST AREA", "Administrative Ward Boundary Target": ward_string_name.upper(), 
+                "Opinion Influencers Authenticated": 3 + (index_node % 4), "Youth Mobilization Mobilization Directors": 6 + (index_node % 5),
+                "Community Vouched Elders Registered": 4 + (index_node % 6), "Regional Strategic Weight Matrix Allocation Coefficient": round(1.15 + (index_node * 0.04), 2)
             })
         df_vantage_matrix_canvas = pd.DataFrame(vantage_records_array)
         st.dataframe(df_vantage_matrix_canvas, width='stretch')
@@ -882,7 +841,6 @@ elif st.session_state.current_page == "main_dashboard":
 
     with tabs[6]:
         st.subheader("🗳️ Cross-National Multi-Tier Election Verification War Room Sync Arrays")
-        
         state_query_search = st.text_input("Type target State name to evaluate returns parameters:", key="nat_search").strip()
         if state_query_search:
             matched_state = None
@@ -890,12 +848,10 @@ elif st.session_state.current_page == "main_dashboard":
                 if state_query_search.lower() == key.lower():
                     matched_state = key
                     break
-            
             if matched_state:
                 registered_calc = 1200000 + (len(matched_state) * 54321)
                 turnout_calc = 600000 + (len(matched_state) * 21043)
                 tally_calc = 550000 + (len(matched_state) * 19280)
-                
                 st.success(f"📊 **{matched_state} Core Operational Index Extracted Mapping Safely:**")
                 tc1, tc2, tc3 = st.columns(3)
                 tc1.metric("INEC Total Registered Base", f"{registered_calc:,}")
@@ -905,10 +861,15 @@ elif st.session_state.current_page == "main_dashboard":
                 st.warning("State identifier token not located inside target administrative tables. Check characters pattern alignment.")
                  
         national_votes_calculated_sum = sum((550000 + (len(k) * 19280)) for k in STATE_DATA_LEDGER.keys())
+        
+        # ACTIVE 5-TIER COMPLETE ELECTION MONITORING FLAGS
         st.markdown(f"""
         **Static Visual Alignment Layout Flags Check:**
         * <div class="tier-box tier-pres" style="width:100%; text-align:left;">🔴 Presidential Accumulation Tally — <b style="float:right;">{national_votes_calculated_sum:,} Total Clean Votes</b></div>
         * <div class="tier-box tier-sen" style="width:100%; text-align:left;">🔵 Senatorial Accumulation Tally — <b style="float:right;">24,815,402 Valid Ballots</b></div>
+        * <div class="tier-box tier-rep" style="width:100%; text-align:left;">🟢 Federal Houses Verification Array — <b style="float:right;">Operational Data Nodes Syncing</b></div>
+        * <div class="tier-box tier-gov" style="width:100%; text-align:left;">🟣 Governorship Strategic Matrix Feed — <b style="float:right;">Live Field Pipeline Stream</b></div>
+        * <div class="tier-box tier-house" style="width:100%; text-align:left;">🟠 State Houses of Assembly Returns Ledger — <b style="float:right;">Unit Validation Engine Armed</b></div>
         """, unsafe_allow_html=True)
         
         st.divider()
@@ -919,21 +880,15 @@ elif st.session_state.current_page == "main_dashboard":
             st.success(f"🎉 Channel tunneled cleanly to Live National Data Node. Parsing INEC blocks configuration arrays...")
             scoop_records = []
             selected_state_data = STATE_DATA_LEDGER[target_state_scoop]
-            
             for lga_name, wards_list in selected_state_data.items():
                 for ward_name in wards_list:
                     for pu_idx in range(1, 3):
                         pu_code = f"PU{pu_idx:03d}"
                         scoop_records.append({
-                            "State Node": target_state_scoop,
-                            "INEC LGA Boundary": lga_name,
-                            "INEC Verified Ward Unit": ward_name.upper(),
-                            "Polling Unit Identifier": f"{ward_name[:3].upper()}-{pu_code}",
-                            "Presidential Tally (Red)": 135 + (pu_idx * 16),
-                            "Senatorial Tally (Blue)": 245 + (pu_idx * 22),
-                            "House of Reps Tally (Green)": 115 + (pu_idx * 12),
-                            "Governorship Tally (Purple)": 190 + (pu_idx * 18),
-                            "State House Tally (Orange)": 155 + (pu_idx * 14)
+                            "State Node": target_state_scoop, "INEC LGA Boundary": lga_name, "INEC Verified Ward Unit": ward_name.upper(),
+                            "Polling Unit Identifier": f"{ward_name[:3].upper()}-{pu_code}", "Presidential Tally (Red)": 135 + (pu_idx * 16),
+                            "Senatorial Tally (Blue)": 245 + (pu_idx * 22), "House of Reps Tally (Green)": 115 + (pu_idx * 12),
+                            "Governorship Tally (Purple)": 190 + (pu_idx * 18), "State House Tally (Orange)": 155 + (pu_idx * 14)
                         })
             st.session_state.last_scooped_df = pd.DataFrame(scoop_records)
             st.dataframe(st.session_state.last_scooped_df, width='stretch')
@@ -946,11 +901,9 @@ elif st.session_state.current_page == "main_dashboard":
     with tabs[7]:
         st.subheader("📝 Ground Truth Form EC8A Audited Verification Schema")
         target_state_ec8a = st.selectbox("Select State Target Matrix Boundary Node", list(STATE_DATA_LEDGER.keys()), key="ec8a_master_state_select")
-        
         state_lga_map = STATE_DATA_LEDGER.get(target_state_ec8a, {})
         lga_options = list(state_lga_map.keys()) if state_lga_map else ["NO COMPATIBLE LGA KEY DETECTED"]
         selected_lga_ec8a = st.selectbox(f"Select LGA Sub-partition for {target_state_ec8a}", lga_options, key="ec8a_lga_select")
-        
         ward_options = state_lga_map.get(selected_lga_ec8a, ["CENTRAL WARD 1"])
         selected_ward_ec8a = st.selectbox(f"Select Ward Boundary for {selected_lga_ec8a}", ward_options, key="ec8a_ward_select")
         
@@ -959,17 +912,12 @@ elif st.session_state.current_page == "main_dashboard":
              ec8a_records = []
              for item_node in range(1, 6):
                  ec8a_records.append({
-                     "State Link Mapped": target_state_ec8a,
-                     "LGA Node Mapping": selected_lga_ec8a.upper(),
-                     "Ward Sector Mapped": selected_ward_ec8a.upper(),
-                     "Polling Unit Code Identification Link": f"{selected_ward_ec8a[:3].upper()}-WARD-PU00{item_node}",
-                     "EC8A Image Link Validation Checksum": f"BLOB_IMG_ID_0{item_node}_SECURE.PNG",
-                     "Cryptographic SHA-256 Stamp Metric": f"0xSHA256_{item_node}B99A11FF_{selected_lga_ec8a[:3].upper() if len(selected_lga_ec8a) >=3 else 'LGA'}",
-                     "Audited Discrepancy Margin Rate": "0.00% Match Perfect"
+                     "State Link Mapped": target_state_ec8a, "LGA Node Mapping": selected_lga_ec8a.upper(), "Ward Sector Mapped": selected_ward_ec8a.upper(),
+                     "Polling Unit Code Identification Link": f"{selected_ward_ec8a[:3].upper()}-WARD-PU00{item_node}", "EC8A Image Link Validation Checksum": f"BLOB_IMG_ID_0{item_node}_SECURE.PNG",
+                     "Cryptographic SHA-256 Stamp Metric": f"0xSHA256_{item_node}B99A11FF_{selected_lga_ec8a[:3].upper() if len(selected_lga_ec8a) >=3 else 'LGA'}", "Audited Discrepancy Margin Rate": "0.00% Match Perfect"
                  })
              st.session_state.last_ec8a_df = pd.DataFrame(ec8a_records)
              st.dataframe(st.session_state.last_ec8a_df, width='stretch')
-             
         if 'last_ec8a_df' in st.session_state:
             render_module_download_trigger(st.session_state.last_ec8a_df, "Ground_Truth_EC8A_Audit", "ground_truth_dl")
         render_institutional_purge_engine("t8_purge")
@@ -983,15 +931,11 @@ elif st.session_state.current_page == "main_dashboard":
 
     with tabs[9]:
         st.subheader("📜 Strategic Waiver Assignment Parameters Matrix Ledgers")
-        
         waiver_records_array = []
         for index_node, ward_string_name in enumerate(GEOGRAPHY["Soba LGA"]):
             waiver_records_array.append({
-                "LGA Territory Identification Link": "SOBA CONST AREA", 
-                "Administrative Ward Boundary Target": ward_string_name.upper(), 
-                "Waivers Dispatched Allocation": 1 + (index_node % 3),
-                "Financial Allocation Metric Equivalent": 150000 * (index_node % 4),
-                "Bypass Signature Seal String": f"EXE-AUTH-SOB-0{index_node}"
+                "LGA Territory Identification Link": "SOBA CONST AREA", "Administrative Ward Boundary Target": ward_string_name.upper(), 
+                "Waivers Dispatched Allocation": 1 + (index_node % 3), "Financial Allocation Metric Equivalent": 150000 * (index_node % 4), "Bypass Signature Seal String": f"EXE-AUTH-SOB-0{index_node}"
             })
         df_waiver_matrix_canvas = pd.DataFrame(waiver_records_array)
         st.dataframe(df_waiver_matrix_canvas, width='stretch')
@@ -1000,7 +944,6 @@ elif st.session_state.current_page == "main_dashboard":
 
     with tabs[10]:
         st.subheader("🚀 National Assembly Legislative Action Motion Tracking")
-        
         df_nass_bills_matrix = pd.DataFrame([
              {"Bill Identification Code": "HB-2026-102", "Legislative Title Summary": "Agricultural Processing Zone Development (Soba) Act", "Current Floor Progress Track": "Third Reading Concluded & Passed", "Last Checked Update Time": "May 2026"},
              {"Bill Identification Code": "HB-2026-115", "Legislative Title Summary": "Federal Medical Centre, Maigana (Establishment) Bill", "Current Floor Progress Track": "Committee Reference Referral", "Last Checked Update Time": "April 2026"},
@@ -1031,34 +974,18 @@ elif st.session_state.current_page == "skill_form":
             sv_phone = st.text_input("Applicant Contact Number")
             sv_nin = st.text_input("Your NIN number")
             sv_vin = st.text_input("your Voters card number")
-            
             sv_dob = st.date_input("Date of Birth", value=datetime.date(2000, 1, 1))
             sv_gender = st.selectbox("Gender Matrix", ["Male", "Female", "Prefer Not to Say"])
             sv_disability = st.selectbox("Vulnerability/Disability Status", ["None", "Visual Impairment", "Hearing Impairment", "Physical Challenge/Locomotor", "Other Challenges"])
-            
             sv_file = st.file_uploader("Upload Profile NIN Slip Document Click", type=['pdf', 'jpg', 'png'])
         with k2:
             klga = st.selectbox("Your LGA", list(LGA_WARD_DATA.keys()))
             kward = st.selectbox("Your Ward", LGA_WARD_DATA.get(klga, []))
-            
-            vocation_list = [
-                "ICT & AI Core Programming", 
-                "Solar Renewable Energy Engineering", 
-                "Fashion & Textile Design Layout", 
-                "Catering & Culinary Arts Matrix",
-                "Automobile Mechanical Engineering",
-                "Electrical Installation & Wiring",
-                "Plumbing & Hydraulics Systems",
-                "Carpentry & Woodwork Manufacturing",
-                "Modern Hairdressing & Cosmetology",
-                "Other (Type Custom Vocation Below)"
-            ]
+            vocation_list = ["ICT & AI Core Programming", "Solar Renewable Energy Engineering", "Fashion & Textile Design Layout", "Catering & Culinary Arts Matrix", "Automobile Mechanical Engineering", "Electrical Installation & Wiring", "Plumbing & Hydraulics Systems", "Carpentry & Woodwork Manufacturing", "Modern Hairdressing & Cosmetology", "Other (Type Custom Vocation Below)"]
             sv_selection = st.selectbox("Vocational Domain Target Pool Sector", vocation_list)
-            
             custom_vocation = ""
-            if sv_selection == "Other (Type Custom Vocation Below)" :
+            if sv_selection == "Other (Type Custom Vocation Below)":
                 custom_vocation = st.text_input("Type Your Choice Vocation Natively Here")
-            
             st.divider()
             sv_palliative_check = st.selectbox("Have you received a palliative from this office before?", ["No", "Yes"])
 
@@ -1126,7 +1053,7 @@ elif st.session_state.current_page == "cv_vault":
         v1, v2 = st.columns(2)
         with v1:
             cv_name = st.text_input("Full name as displayed on NIN")
-            cv_cat = st.selectbox("Talent Classification Target Category", ["Professional Domain Leader", "Skilled Artisan Professional", "Business Enterprise Executive Owner"])
+            cv_cat = st.selectbox("Talent Classification Target Category", ["Professional Domain Leader", "Skilled Artisan Professional", "Business Executive Owner"])
             cv_qual = st.selectbox("Highest Level Academic Qualification Attained", ["Doctorate PhD", "Masters Degree Level", "Bachelors Degree / HND Layer", "National Diploma ND", "NCE", "SSCE Credentials Matrix", "Primary Leaving", "None"])
             cv_file = st.file_uploader("Attach Professional CV/Resume Document Link File", type=['pdf', 'jpg', 'png'])
         with v2:
@@ -1152,7 +1079,7 @@ elif st.session_state.current_page == "cun_trigger":
         cun_phone = st.text_input("Applicant Contact Number")
         clga = st.selectbox("Affected LGA", list(LGA_WARD_DATA.keys()))
         cward = st.selectbox("Affected Ward", LGA_WARD_DATA.get(clga, []))
-        cun_area = st.selectbox("Area of urgrnt agovernment Attention", ["Water Source Deficit", "Grid Electricity Failure", "Access Road Failure Collapse", "Community Security Vulnerability", "Healthcare Facility Absence"])
+        cun_area = st.selectbox("Area of urgent government Attention", ["Water Source Deficit", "Grid Electricity Failure", "Access Road Failure Collapse", "Community Security Vulnerability", "Healthcare Facility Absence"])
         cun_file = st.file_uploader("Attach Identification NIN Validation Document Slip", type=['pdf', 'jpg', 'png'])
         cun_logs = st.text_area("Detailed Situation Report Narrative Logs")
         cun_cam = st.camera_input("Field Visual Evidence Deficit Capture Sensor Matrix Camera")
@@ -1179,7 +1106,6 @@ else:
             p_phone = st.text_input("Applicant Contact Number")
             plga = st.selectbox("Your LGA", list(LGA_WARD_DATA.keys()))
             pward = st.selectbox("Your Ward", LGA_WARD_DATA.get(plga, []))
-            
             p_agro_select = st.selectbox("Specific Area of Agro Intervention and Others", ["Fertilizer", "Seedlings", "Other Area of Likely Intervention"])
             p_expect = st.text_input("Type Your Expectation")
         
