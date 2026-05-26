@@ -467,8 +467,6 @@ with st.sidebar:
         st.session_state.current_page = "cun_trigger"
     
     st.divider()
-    if st.button("🏛️ RETURN TO COMMAND HUB", key="btn_cmd"): st.session_state.current_page = "main_dashboard"
-
     st.divider()
     st.markdown("<p style='color:#8B0000; font-weight:bold; text-transform: uppercase;'>🔒 Field Authentication Core</p>", unsafe_allow_html=True)
     
@@ -514,13 +512,7 @@ def render_marquee_header():
             '</div>',
             unsafe_allow_html=True
         )
-        
-        st.markdown('<div style="margin-top:10px;"></div>', unsafe_allow_html=True)
-        if st.session_state.current_page != "main_dashboard":
-            if st.button("⬅️ RETURN FOR OTHER OPTIONS / BACK TO CONTROL HUB", key="global_portal_back_button"):
-                st.session_state.current_page = "main_dashboard"
-                st.rerun()
-
+                
 def render_module_download_trigger(data_source, filename_prefix, unique_key):
     try:
         csv_bytes = pd.DataFrame(data_source).to_csv(index=False).encode('utf-8')
